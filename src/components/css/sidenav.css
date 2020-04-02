@@ -45,7 +45,7 @@
   padding:9px 16px 9px 16px;
   transition:0.3s;
 }
-.icons:visited{
+.icons:active{
   color:#08FDD8
 }
 .icons2{
@@ -68,8 +68,4 @@
   background: -webkit-linear-gradient(#5669e7,#08FDD8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-.linkActive{
-  color:#08FDD8;
-  text-decoration: none;
 }

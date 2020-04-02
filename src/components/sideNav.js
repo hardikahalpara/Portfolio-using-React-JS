@@ -41,31 +41,35 @@ class sideNav extends Component {
         <a href="#"><div className="logo"></div></a>
 
         <nav className="sidenav">
-          <IconContext.Provider value={{ className: "icons" }}>
-            <NavLink to="/" onMouseEnter={this.handleHoverInHome} onMouseLeave={this.handleHoverOut} style={{ textDecoration: "none" }} activeClassName="linkActive">
-              {temp == "HOME" ? <div className="iconsText">{temp}</div> : <FiHome />}
-              {/* <FiHome /> */}
-            </NavLink>
-            <NavLink to="/about" onMouseEnter={this.handleHoverInInfo} onMouseLeave={this.handleHoverOut} style={{ textDecoration: "none" }} activeClassName="linkActive">
-              {temp == "ABOUT" ? <div className="iconsText">{temp}</div> : <FiInfo />}
-              {/* <FiInfo /> */}
-            </NavLink>
-            <NavLink to="/" onMouseEnter={this.handleHoverInSettings} onMouseLeave={this.handleHoverOut} style={{ textDecoration: "none" }} activeClassName="linkActive">
-              {temp == "SKILLS" ? <div className="iconsText">{temp}</div> : <FiSettings />}
-              {/* <FiSettings /> */}
-            </NavLink>
-            <NavLink to="/" onMouseEnter={this.handleHoverInEye} onMouseLeave={this.handleHoverOut} style={{ textDecoration: "none" }} activeClassName="linkActive">
-              {temp == "PROJECTS" ? <div className="iconsText">{temp}</div> : <FiEye />}
-              {/* <FiEye /> */}
-            </NavLink>
-            <NavLink to="/" onMouseEnter={this.handleHoverInMail} onMouseLeave={this.handleHoverOut} style={{ textDecoration: "none" }} activeClassName="linkActive">
-              {temp == "CONTACT" ? <div className="iconsText">{temp}</div> : <FiMail />}
-              {/* <FiMail /> */}
+          <NavLink to="/" onMouseEnter={this.handleHoverInHome} onMouseLeave={this.handleHoverOut} style={{ textDecoration: "none" }}>
+            {temp == "HOME" ? <div className="iconsText">{temp}</div> :
+              <IconContext.Provider value={{ className: "icons" }}>
+                <FiHome /></IconContext.Provider>}
 
-            </NavLink>
+          </NavLink>
+          <NavLink to="/about" onMouseEnter={this.handleHoverInInfo} onMouseLeave={this.handleHoverOut} style={{ textDecoration: "none" }}>
+            {temp == "ABOUT" ? <div className="iconsText">{temp}</div> :
+              <IconContext.Provider value={{ className: "icons" }}>
+                <FiInfo /></IconContext.Provider>}
 
-          </IconContext.Provider>
+          </NavLink>
+          <NavLink to="/" onMouseEnter={this.handleHoverInSettings} onMouseLeave={this.handleHoverOut} style={{ textDecoration: "none" }}>
+            {temp == "SKILLS" ? <div className="iconsText">{temp}</div> :
+              <IconContext.Provider value={{ className: "icons" }}>
+                <FiSettings /></IconContext.Provider>}
 
+          </NavLink>
+          <NavLink to="/" onMouseEnter={this.handleHoverInEye} onMouseLeave={this.handleHoverOut} style={{ textDecoration: "none" }}>
+            {temp == "PROJECTS" ? <div className="iconsText">{temp}</div> :
+              <IconContext.Provider value={{ className: "icons" }}>
+                <FiEye /></IconContext.Provider>}
+
+          </NavLink>
+          <NavLink to="/" onMouseEnter={this.handleHoverInMail} onMouseLeave={this.handleHoverOut} style={{ textDecoration: "none" }}>
+            {temp == "CONTACT" ? <div className="iconsText">{temp}</div> :
+              <IconContext.Provider value={{ className: "icons" }}>
+                <FiMail /></IconContext.Provider>}
+          </NavLink>
         </nav>
         <nav className="bottomnav">
           <IconContext.Provider value={{ className: "icons2" }}>
@@ -75,7 +79,7 @@ class sideNav extends Component {
           </IconContext.Provider>
         </nav>
 
-      </div>
+      </div >
     )
   }
 }
