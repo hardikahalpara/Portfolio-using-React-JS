@@ -1,0 +1,75 @@
+.sidenavmain{
+  height:100%;
+  width: 60px;
+  position: fixed;
+  background-color: #181818;
+  text-align: center;
+  margin-top: 0px;
+
+}
+.logo{
+  width: 53px;
+  height:70px;
+  margin-top:0px;
+  background: url("a_burned.png") no-repeat center center;
+  background-size: 23px 33px;
+  border-width: 3px;
+  border-style: solid;
+  position: fixed;
+  -moz-border-image: -moz-linear-gradient(top left, #5669e7 0%, #08FDD8 100%);
+	  -webkit-border-image: -webkit-linear-gradient(top left, #5669e7 0%, #08FDD8 100%);
+	  border-image: linear-gradient(to bottom right, #5669e7 0%, #08FDD8 100%);
+	  border-image-slice: 1;
+}
+
+.sidenav{
+  top:50%;
+  position: fixed;
+  margin: 0;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.bottomnav{
+  top:90%;
+  position: fixed;
+  margin: 0;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+.icons{
+  color: #51504C;
+  font-size: 26px;
+  padding:9px 16px 9px 16px;
+  transition:0.3s;
+}
+.icons:visited{
+  color:#08FDD8
+}
+.icons2{
+  color: #51504C;
+  font-size: 17px;
+  padding:8px 8px 8px 8px;
+  transition:0.3s;
+}
+.icons2:hover{
+  color:#08FDD8;
+}
+
+.iconsText{
+  color:#08FDD8;
+  font-size: 10px;
+  font-family: sans-serif;
+  padding:18px 0px 18px 0px;
+  transition: 0.3s;
+  font-weight: 650;
+  background: -webkit-linear-gradient(#5669e7,#08FDD8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.linkActive{
+  color:#08FDD8;
+  text-decoration: none;
+}
