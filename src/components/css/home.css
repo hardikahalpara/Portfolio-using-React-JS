@@ -46,7 +46,7 @@
 }
 .animateForward:hover {
 color:#5669e7;
-	background: linear-gradient(to right, #08FDD8 0%, #5669e7 100%);
+	background: linear-gradient(to right, #08FDD8 0%, #5669e7 75%);
 	-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
