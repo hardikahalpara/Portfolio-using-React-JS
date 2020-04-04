@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700');
+.skillsTitle{
+  top:12%;
+  margin: 0;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-family: 'Lobster','cursive';
+  text-align:left;
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 70;
+  transform: translateX(-40px);
+  opacity: 0;
+  animation: headerFadeIn 1s;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  background: linear-gradient(to right, #08FDD8 0%, #5669e7 70%);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left:12%;
+}
+li{
+  list-style-type: none;
+}
+p.list{
+  color:#51504C;
+  font-weight: 700;
+}
+ .skills {
+	 position: absolute;
+   padding: 30px 0;
+   color: white;
+   width: 300px;
+  margin: 0;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+ .skills ul {
+	 padding-top: 30px;
+}
+ .skills ul > li {
+	 margin-bottom: 50px;
+	 background: #51504C;
+   height: 4px;
+   border-radius: 4px;
+   width: inherit;
+   position: relative;
+}
+ .skills ul > li em {
+	 font-size: 16px;
+	 position: relative;
+	 top: -30px;
+}
+ .skills ul > li span {
+	 height: 4px;
+   background-color: #94c245;
+   border-radius: 4px;
+	 background: linear-gradient(90deg, #08FDD8, #5669e7);
+	 position: absolute;
+}
+ .skills .html5 {
+	 width: 90%;
+	 animation: html5 2s ease-out;
+}
+ .skills .css3 {
+	 width: 80%;
+	 animation: css3 2s ease-out;
+}
+ .skills .js {
+	 width: 65%;
+	 animation: js 2s ease-out;
+}
+ .skills .jquery {
+	 width: 30%;
+	 animation: jquery 2s ease-out;
+}
+ .skills .wordpress {
+	 width: 50%;
+	 animation: wordpress 2s ease-out;
+}
+ .skills .react {
+	 width: 60%;
+	 animation: react 2s ease-out;
+}
+.skills .java {
+  width: 65%;
+  animation: java 2s ease-out;
+}
+ .skills .as {
+	 width: 80%;
+	 animation: as 2s ease-out;
+}
+.skills .bootstrap {
+  width: 70%;
+  animation: bootstrap 2s ease-out;
+}
+.skills .material {
+  width: 50%;
+  animation: material 2s ease-out;
+}
+ .skills .xcode {
+	 width: 20%;
+	 animation: xcode 2s ease-out;
+}
+.skills .cpp {
+  width: 90%;
+  animation: cpp 2s ease-out;
+}
+.skills .python {
+  width: 90%;
+  animation: python 2s ease-out;
+}
+.skills .logic {
+  width: 75%;
+  animation: logic 2s ease-out;
+}
+.skills .ds {
+  width: 75%;
+  animation: ds 2s ease-out;
+}
+.skills .algo {
+  width: 70%;
+  animation: algo 2s ease-out;
+}
+.skills .git {
+  width: 65%;
+  animation: git 2s ease-out;
+}
+.skills .ml {
+  width: 30%;
+  animation: ml 2s ease-out;
+}
+@keyframes ml {
+  0% {
+    width: 0px;
+ }
+  100% {
+    width: 30%;
+ }
+}
+@keyframes git {
+  0% {
+    width: 0px;
+ }
+  100% {
+    width: 65%;
+ }
+}
+@keyframes algo {
+  0% {
+    width: 0px;
+ }
+  100% {
+    width: 70%;
+ }
+}
+@keyframes ds {
+  0% {
+    width: 0px;
+ }
+  100% {
+    width: 75%;
+ }
+}
+@keyframes logic {
+  0% {
+    width: 0px;
+ }
+  100% {
+    width: 75%;
+ }
+}
+@keyframes python {
+  0% {
+    width: 0px;
+ }
+  100% {
+    width: 90%;
+ }
+}
+@keyframes java {
+  0% {
+    width: 0px;
+ }
+  100% {
+    width: 65%;
+ }
+}
+ @keyframes html5 {
+	 0% {
+		 width: 0px;
+	}
+	 100% {
+		 width: 90%;
+	}
+}
+@keyframes cpp {
+  0% {
+    width: 0px;
+ }
+  100% {
+    width: 90%;
+ }
+}
+ @keyframes css3 {
+	 0% {
+		 width: 0px;
+	}
+	 100% {
+		 width: 80%;
+	}
+}
+ @keyframes js {
+	 0% {
+		 width: 0px;
+	}
+	 100% {
+		 width: 65%;
+	}
+}
+ @keyframes jquery {
+	 0% {
+		 width: 0px;
+	}
+	 100% {
+		 width: 30%;
+	}
+}
+@keyframes bootstrap {
+  0% {
+    width: 0px;
+ }
+  100% {
+    width: 70%;
+ }
+}
+@keyframes material {
+  0% {
+    width: 0px;
+ }
+  100% {
+    width: 50%;
+ }
+}
+ @keyframes wordpress {
+	 0% {
+		 width: 0px;
+	}
+	 100% {
+		 width: 50%;
+	}
+}
+ @keyframes react {
+	 0% {
+		 width: 0px;
+	}
+	 100% {
+		 width: 60%;
+	}
+}
+ @keyframes as {
+	 0% {
+		 width: 0px;
+	}
+	 100% {
+		 width: 80%;
+	}
+}
+ @keyframes xcode {
+	 0% {
+		 width: 0px;
+	}
+	 100% {
+		 width: 20%;
+	}
+}

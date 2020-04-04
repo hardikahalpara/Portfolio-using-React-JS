@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './css/home.css'
-import { FiInstagram } from 'react-icons/fi'
+
 
 class home extends Component {
   render() {

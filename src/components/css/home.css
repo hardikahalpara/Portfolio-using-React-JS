@@ -68,7 +68,7 @@ transition: 0.5s;
 color:#5669e7;
 }
 .talkButton{
-  position: absolute;
+position: absolute;
 padding: 8px 15px 8px 15px;
 background-color: #1D1D1D;
 color:#08FDD8 ;
@@ -77,14 +77,12 @@ border-color:#08FDD8 ;
 border-style: solid;
 margin-top: 50px;
 transition: 0.3s;
+outline: none;
 }
 .talkButton:hover{
   /* background: linear-gradient(to right, #08FDD8 0%, #5669e7 100%); */
   color: #1D1D1D;
   background-color: #08FDD8;
-
-
-
 }
 .svg{
   height: 275px;

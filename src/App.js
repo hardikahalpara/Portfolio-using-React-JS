@@ -4,6 +4,7 @@ import './App.css'
 import NavBar from './components/sideNav'
 import Home from './components/home'
 import About from './components/about'
+import Skills from './components/skills'
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
           <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/about" component={About} exact />
+            <Route path="/skills" component={Skills} exact />
 
           </Switch>
         </div>
