@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+ article.flashcard {
+   position: absolute;
+	 margin: 0px auto;
+  border-radius: 4px;
+	 box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+   width: 350px;
+   height: 250px;
+  margin: 0;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-image: linear-gradient(to bottom right,rgb(63, 63, 62), rgb(34, 34, 33));
+
+}
+ article.flashcard input[type=checkbox] {
+	 display: none;
+}
+ article.flashcard input[type=checkbox]:checked ~ label section.front {
+	 height: 0%;
+}
+ article.flashcard input[type=checkbox]:checked ~ label section.back {
+	 height: 100%;
+}
+ article.flashcard label {
+	 display: block;
+	 width: 100%;
+	 height: 100%;
+}
+ article.flashcard section {
+	 display: block;
+   text-align: center;
+   border-radius: 4px;
+	 width: 100%;
+	 transition: all 0.7s ease-in-out 0s;
+   overflow: hidden;
+
+}
+ article.flashcard section.front {
+	 color: #5669e7;
+   height: 100%;
+   background: linear-gradient(to right, #08FDD8 0%, #5669e7 75%);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ article.flashcard section.back {
+	 color: rgb(233, 227, 227);
+	 background-image: linear-gradient(to bottom right,#11249e 0%, rgb(21, 134, 117) 80%);
+   height: 0%;
+   opacity: 1;
+}
+.flashfront{
+  top:50%;
+  font-size: 35px;
+  font-family: 'Lobster','cursive';
+  margin-top: 35%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.flashback{
+  top:50%;
+  margin-top: 35%;
+  font-size: 14px;
+  font-weight: 550;
+  letter-spacing: 1px;
+  line-height: 25px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 10px;
+}

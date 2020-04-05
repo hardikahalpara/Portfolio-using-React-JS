@@ -25,11 +25,11 @@ class sideNav extends Component {
             <IconContext.Provider value={{ className: "icons" }}>
               <FiSettings /></IconContext.Provider>
           </NavLink>
-          <NavLink to="/" className="tooltip--right" data-tooltip="PROJECTS" >
+          <NavLink to="/project" className="tooltip--right" data-tooltip="PROJECTS" >
             <IconContext.Provider value={{ className: "icons" }}>
               <FiEye /></IconContext.Provider>
           </NavLink>
-          <NavLink to="/" className="tooltip--right" data-tooltip="CONTACT">
+          <NavLink to="/contact" className="tooltip--right" data-tooltip="CONTACT">
             <IconContext.Provider value={{ className: "icons" }}>
               <FiMail /></IconContext.Provider>
           </NavLink>

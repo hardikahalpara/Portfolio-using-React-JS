@@ -9,12 +9,12 @@ class skills extends Component {
 
         <p style={{ top: '5%', left: '5%' }} class="htmltags">&lt;body&gt;</p>
         <p style={{ top: '10%', left: '10%' }} class="htmltags">&lt;h1&gt;</p>
-        <p style={{ top: '17.5%', left: '48%' }} class="htmltags">&lt;/h1&gt;</p>
+        <p style={{ top: '17.5%', left: '35%' }} class="htmltags">&lt;/h1&gt;</p>
         <p style={{ top: '30%', left: '10%' }} class="htmltags">&lt;ul&gt;</p>
         <p style={{ top: '138%', left: '10%' }} class="htmltags">&lt;/ul&gt;</p>
         <p style={{ top: '145%', left: '5%' }} class="htmltags">&lt;/body&gt;</p>
 
-        <div className="skillsTitle">Few of the things I'm good at:</div>
+        <div className="skillsTitle">What I'm good at :</div>
         <div class="skills" style={{ left: '12%', top: '55%' }}>
           <p className="list">FRONT-END</p>
           <ul>

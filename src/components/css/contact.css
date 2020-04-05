@@ -1,0 +1,35 @@
+.contactTitle{
+  top:43.5%;
+  margin: 0;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 12%;
+}
+.animateForward2{
+  position: relative;
+  font-family: 'Lobster','cursive';
+  text-align:left;
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 70;
+  transform: translateX(-40px);
+  opacity: 0;
+  animation: headerFadeIn 1s;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  background: linear-gradient(to right, #08FDD8 0%, #5669e7 30%);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* transition:0.3s; */
+}
+.label{
+  color:#08FDD8;
+  font-weight: 550px;
+  display: inline;
+}
+.answer{
+  color:white;
+  font-weight: 500px;
+  display: inline;
+}
