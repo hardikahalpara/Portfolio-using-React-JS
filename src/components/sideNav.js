@@ -11,7 +11,6 @@ class sideNav extends Component {
 
       <div className="sidenavmain">
         <a href="#"><div className="logo"></div></a>
-
         <nav className="sidenav">
           <NavLink to="/" className="tooltip--right" data-tooltip="HOME">
             <IconContext.Provider value={{ className: "icons" }}>

@@ -5,7 +5,7 @@ import './css/home.css'
 class home extends Component {
   render() {
     return (
-      <div>
+      <div className="homeContainer">
         <p style={{ top: '5%', left: '5%' }} class="htmltags">&lt;html&gt;</p>
         <p style={{ top: '13%', left: '7%' }} class="htmltags">&lt;body&gt;</p>
         <p style={{ top: '30%', left: '10%' }} class="htmltags">&lt;h1&gt;</p>

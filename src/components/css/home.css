@@ -1,12 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+.homeContainer{
+display: flex;
+}
+@media screen and (max-width: 750px) {
+  .htmltags {
+    visibility: hidden;
+  }
+  .icon {
+    visibility: hidden;
+  }
+  .pulse1 {
+    visibility: hidden;
+  }
+  .pulse2 {
+    visibility: hidden;
+  }
+
+  .homeMain{
+    margin-top:65px;
+  }
+}
 
 
 .homeMain{
   top:47%;
   position: fixed;
-  margin: 0;
   position: absolute;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -84,21 +104,7 @@ outline: none;
   color: #1D1D1D;
   background-color: #08FDD8;
 }
-.svg{
-  height: 275px;
-  width: 300px;
-  background: url("a_burned.png") no-repeat center center;
-  position: absolute;
-  background-size: 250px 300px;
-  top:50%;
-  position: fixed;
-  margin: 0;
-  position: absolute;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  left: 65%;
 
-}
 
 
 
@@ -112,8 +118,8 @@ outline: none;
   background: url("myimage.png") no-repeat;
   background-size: 250px 420px;
   background-position: center;
-  margin: auto;
-  top: 0; left: 45%; bottom: 0; right: 0;
+  top: 32%;
+  left: 65%;
   z-index: 2;
 
   -webkit-box-shadow:
@@ -139,8 +145,8 @@ inset 0 0 0 10px   rgba(8, 253, 216, 0.322);
   position: absolute;
   width: 270px;
   height: 270px;
-  margin: auto;
-  top: 0; left: 45%; bottom: 0; right: 0;
+  top: 30.7%;
+  left: 64.3%;
   z-index: 1;
   opacity: 0;
   border: 3px solid rgba(255,255,255,.1);
@@ -163,8 +169,8 @@ inset 0 0 0 10px   rgba(8, 253, 216, 0.322);
   position: absolute;
   width: 270px;
   height: 270px;
-  margin: auto;
-  top: 0; left: 45%; bottom: 0; right: 0;
+  top: 30.7%;
+  left: 64.3%;
   z-index: 2;
   opacity: 0;
   border: 1px solid rgba(255,255,255,0);
