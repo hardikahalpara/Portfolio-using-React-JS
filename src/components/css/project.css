@@ -23,13 +23,16 @@
   #flashcarddiv-5{
     top:237% !important;
   }
-  #dummy{
-    top:270% !important;
-    visibility: hidden !important;
+  #info1{
+    top:278% !important;
+    visibility: visible !important;
 
   }
 }
-
+#info1{
+  visibility: hidden;
+  top:5%;
+}
  article.flashcard {
    position: absolute;
 	 margin: 0px auto;

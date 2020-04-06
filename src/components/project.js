@@ -7,10 +7,11 @@ export class project extends Component {
       <div>
         <p style={{ top: '5%', left: '5%' }} class="htmltags">&lt;body&gt;</p>
         <p style={{ top: '10%', left: '10%' }} class="htmltags">&lt;h1&gt;</p>
+        <p style={{ top: '5%', left: '8%', lineHeight: '25px' }} class="htmltags" id="info1">&lt;!--click on any project tile to know more about it--&gt;<br></br><br></br><br></br><br></br><br></br><br></br></p>
         <p style={{ top: '17.5%', left: '40%' }} class="htmltags">&lt;!--click on any project tile to know more about it--&gt;</p>
-        <p style={{ top: '17.5%', left: '24%' }} class="htmltags">&lt;/h1&gt;</p>
-        <p style={{ top: '26%', left: '10%' }} class="htmltags">&lt;section&gt;</p>
-        <p style={{ top: '105%', left: '67%' }} class="htmltags">&lt;/section&gt;</p>
+        <p style={{ top: '17.5%', left: '27%' }} class="htmltags">&lt;/h1&gt;</p>
+        <p style={{ top: '24%', left: '10%' }} class="htmltags">&lt;section&gt;</p>
+        <p style={{ top: '105%', left: '72%' }} class="htmltags">&lt;/section&gt;</p>
         <p style={{ top: '120%', left: '5%' }} class="htmltags">&lt;/body&gt;</p>
         <div className="skillsTitle">Projects:</div>
         <article class="flashcard" id="flashcarddiv-1" style={{ top: '45%', left: '12%' }}>
@@ -73,7 +74,7 @@ export class project extends Component {
             </section>
           </label>
         </article>
-        <div className="skillsTitle" id="dummy" style={{ top: '110%', visibility: 'hidden' }}>.</div>
+
 
 
 
