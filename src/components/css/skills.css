@@ -7,28 +7,31 @@
 @media screen and (max-width: 1300px) {
 
 .skills{
-  left: 15% !important;
+  left: 8% !important;
+
 }
 #skill-1{
-  top:53% !important;
+  top:45% !important;
 }
 #skill-2{
-  top:93% !important;
+  top:85% !important;
 }
 #skill-3{
-  top:123% !important;
+  top:115% !important;
 
 }
 #skill-4{
-  top:163% !important;
+  top:155% !important;
 
 }
 #skill-5{
-  top:203% !important;
+  top:195% !important;
 
 }
 .skillsTitle{
-  top:18% !important;
+  top:6% !important;
+  left:8% !important;
+
 }
 }
 

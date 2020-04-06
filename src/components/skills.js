@@ -15,7 +15,7 @@ class skills extends Component {
         <p style={{ top: '145%', left: '5%' }} class="htmltags">&lt;/body&gt;</p>
 
         <div className="skillsTitle">What I'm good at :</div>
-        <div >
+        <div>
           <div class="skills" id="skill-1" style={{ left: '12%', top: '55%' }}>
             <p className="list">FRONT-END</p>
             <ul>

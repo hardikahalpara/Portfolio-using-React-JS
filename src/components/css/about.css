@@ -11,6 +11,10 @@
 }
 
 @media screen and (max-width: 1300px) {
+  .aboutTitle{
+    left:8% !important;
+    top:40% !important;
+  }
   .first-ball{
     visibility: hidden;
     		/*CSS transitions*/

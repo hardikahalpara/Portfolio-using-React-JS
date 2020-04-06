@@ -4,6 +4,7 @@
 @media screen and (max-width: 1300px) {
   .homeContainer{
     justify-content: center !important;
+    left: 0% !important
   }
   .htmltags {
     visibility: hidden;
@@ -78,9 +79,11 @@ animation: none !important;
   .animateForward{
     font-size: 35px !important;
   }
+  .homeMain{
+    left:8% !important;
+    top:40% !important;
+  }
 }
-
-
 .homeMain{
   top:47%;
   position: fixed;

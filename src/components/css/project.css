@@ -1,21 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 @media screen and (max-width: 1300px){
   .flashcard{
-    left:12% !important
+    left:8% !important
+  }
+  #flashcarddiv-1{
+    top:35% !important;
   }
   #flashcarddiv-2{
-    top:85% !important;
+    top:80% !important;
   }
   #flashcarddiv-3{
-    top:125% !important;
+    top:130% !important;
 
   }
   #flashcarddiv-4{
-    top:165% !important;
+    top:180% !important;
 
   }
   #flashcarddiv-5{
-    top:205% !important;
+    top:230% !important;
   }
 }
 
