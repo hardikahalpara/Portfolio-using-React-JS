@@ -1,30 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700');
 .skillsContainer{
   display:flex;
+
 }
+
 @media screen and (max-width: 480px) {
 .skillsContainer{
-  flex-direction: column;
+  padding-top: 70px !important;
 }
 .skills{
-  left: 12% !important;
+  left: 15% !important;
 }
 #skill-1{
-  top:50% !important;
+  top:53% !important;
 }
 #skill-2{
-  top:90% !important;
+  top:93% !important;
 }
 #skill-3{
-  top:120% !important;
+  top:123% !important;
 
 }
 #skill-4{
-  top:160% !important;
+  top:163% !important;
 
 }
 #skill-5{
-  top:200% !important;
+  top:203% !important;
 
 }
 .skillsTitle{

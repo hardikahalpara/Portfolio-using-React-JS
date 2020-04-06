@@ -13,7 +13,7 @@ export class project extends Component {
         <p style={{ top: '105%', left: '67%' }} class="htmltags">&lt;/section&gt;</p>
         <p style={{ top: '120%', left: '5%' }} class="htmltags">&lt;/body&gt;</p>
         <div className="skillsTitle">Projects:</div>
-        <article class="flashcard" style={{ top: '45%', left: '12%' }}>
+        <article class="flashcard" id="flashcarddiv-1" style={{ top: '45%', left: '12%' }}>
           <input id="flashcard-1" type="checkbox" />
           <label for="flashcard-1">
             <section class="front">
@@ -25,7 +25,7 @@ export class project extends Component {
             </section>
           </label>
         </article>
-        <article class="flashcard" style={{ top: '45%', left: '41%' }}>
+        <article class="flashcard" id="flashcarddiv-2" style={{ top: '45%', left: '41%' }}>
           <input id="flashcard-2" type="checkbox" />
           <label for="flashcard-2">
             <section class="front">
@@ -37,7 +37,7 @@ export class project extends Component {
             </section>
           </label>
         </article>
-        <article class="flashcard" style={{ top: '45%', left: '70%' }}>
+        <article class="flashcard" id="flashcarddiv-3" style={{ top: '45%', left: '70%' }}>
           <input id="flashcard-3" type="checkbox" />
           <label for="flashcard-3">
             <section class="front">
@@ -49,7 +49,7 @@ export class project extends Component {
             </section>
           </label>
         </article>
-        <article class="flashcard" style={{ top: '90%', left: '12%' }}>
+        <article class="flashcard" id="flashcarddiv-4" style={{ top: '90%', left: '12%' }}>
           <input id="flashcard-4" type="checkbox" />
           <label for="flashcard-4">
             <section class="front">
@@ -61,7 +61,7 @@ export class project extends Component {
             </section>
           </label>
         </article>
-        <article class="flashcard" style={{ top: '90%', left: '41%' }}>
+        <article class="flashcard" id="flashcarddiv-5" style={{ top: '90%', left: '41%' }}>
           <input id="flashcard-5" type="checkbox" />
           <label for="flashcard-5">
             <section class="front">

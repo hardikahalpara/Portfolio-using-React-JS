@@ -1,4 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
+@media screen and (max-width: 480px){
+  .flashcard{
+    left:12% !important
+  }
+  #flashcarddiv-2{
+    top:85% !important;
+  }
+  #flashcarddiv-3{
+    top:125% !important;
+
+  }
+  #flashcarddiv-4{
+    top:165% !important;
+
+  }
+  #flashcarddiv-5{
+    top:205% !important;
+  }
+}
 
  article.flashcard {
    position: absolute;

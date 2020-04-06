@@ -74,6 +74,9 @@ transform: none !important;
 -ms-animation: none !important;
 animation: none !important;
   }
+  p{
+    margin-right: 20px;
+  }
 
 }
 .animateForward1{
