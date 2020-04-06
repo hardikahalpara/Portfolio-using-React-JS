@@ -13,6 +13,7 @@ const meta = {
   name: 'viewport',
   content: {
     width: 'device-width',
+    minimumScale: '1'
   }
 }
 if (document.documentElement.clientWidth < 480) {
