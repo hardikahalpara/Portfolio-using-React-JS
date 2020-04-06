@@ -79,15 +79,26 @@
    height: 0%;
    opacity: 1;
 }
-.flashfront{
+/* .flashfront{
   top:50%;
   font-size: 35px;
-  /* font-family: 'Lobster','cursive'; */
+  font-family: 'Lobster','cursive';
   margin-top: 35%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
+} */
 .flashback{
+  top:50%;
+  margin-top: 35%;
+  font-size: 14px;
+  font-weight: 550;
+  letter-spacing: 1px;
+  line-height: 25px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 10px;
+}
+.flashfront{
   top:50%;
   margin-top: 35%;
   font-size: 14px;
