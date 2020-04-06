@@ -17,7 +17,7 @@ export class project extends Component {
           <input id="flashcard-1" type="checkbox" />
           <label for="flashcard-1">
             <section class="front">
-              <div className="flashfront">Swachh-Bin</div>
+              <div style={{ color: 'white', fontSize: '50px' }}>Swachh-Bin</div>
               <div style={{ color: '#08FDD8', fontSize: '12px', marginTop: '-15px' }}>NATIVE ANDROID APP</div>
             </section>
             <section class="back">
