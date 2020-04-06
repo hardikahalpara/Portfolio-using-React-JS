@@ -21,7 +21,7 @@
     width: 100%;
     height: 60px;
     justify-content: center;
-    margin-top:8px;
+    margin-top:6px;
   }
   .bottomnav{
     visibility: hidden;
@@ -39,7 +39,7 @@
 
 }
 .icons{
-  font-size: 30px !important;
+  font-size: 32px !important;
 }
 
 }
