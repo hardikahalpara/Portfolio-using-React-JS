@@ -4,10 +4,8 @@
 
 }
 
-@media screen and (max-width: 480px) {
-.skillsContainer{
-  padding-top: 70px !important;
-}
+@media screen and (max-width: 1300px) {
+
 .skills{
   left: 15% !important;
 }

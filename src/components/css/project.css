@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1300px){
   .flashcard{
     left:12% !important
   }

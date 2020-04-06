@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1300px) {
+  .homeContainer{
+    justify-content: center !important;
+  }
   .htmltags {
     visibility: hidden;
   }
