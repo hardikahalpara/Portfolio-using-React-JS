@@ -14,7 +14,8 @@ class sideNav extends Component {
         <nav className="sidenav">
           <NavLink to="/" className="tooltip--right" data-tooltip="HOME">
             <IconContext.Provider value={{ className: "icons" }}>
-              <FiHome /></IconContext.Provider>
+              <FiHome />
+            </IconContext.Provider>
           </NavLink>
           <NavLink to="/about" className="tooltip--right" data-tooltip="ABOUT">
             <IconContext.Provider value={{ className: "icons" }}>
