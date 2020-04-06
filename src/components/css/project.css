@@ -82,7 +82,7 @@
 .flashfront{
   top:50%;
   font-size: 35px;
-  font-family: 'Lobster','cursive';
+  /* font-family: 'Lobster','cursive'; */
   margin-top: 35%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
