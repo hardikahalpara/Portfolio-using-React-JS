@@ -5,6 +5,7 @@ import './css/home.css'
 class home extends Component {
   render() {
     return (
+      <meta name="viewport" content="width=1000"></meta>
       <div className="homeContainer">
         <p style={{ top: '5%', left: '5%' }} class="htmltags">&lt;html&gt;</p>
         <p style={{ top: '13%', left: '7%' }} class="htmltags">&lt;body&gt;</p>
