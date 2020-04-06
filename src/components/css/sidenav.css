@@ -51,7 +51,7 @@
   background-size: 23px 33px;
   border-width: 3px;
   border-style: solid;
-  position: fixed;
+  position: sticky;
   -moz-border-image: -moz-linear-gradient(top left, #5669e7 0%, #08FDD8 100%);
 	  -webkit-border-image: -webkit-linear-gradient(top left, #5669e7 0%, #08FDD8 100%);
 	  border-image: linear-gradient(to bottom right, #5669e7 0%, #08FDD8 100%);
