@@ -23,9 +23,6 @@
   #flashcarddiv-5{
     top:237% !important;
   }
-  .flashfront{
-    visibility: visible;
-  }
   #dummy{
     top:270% !important;
     visibility: hidden !important;
@@ -72,6 +69,7 @@
  article.flashcard section.front {
 	 color: #5669e7;
    height: 100%;
+   /* font-family: 'Lobster','cursive'; */
    background: linear-gradient(to right, #08FDD8 0%, #5669e7 75%);
 	-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -92,6 +90,7 @@
 }
 .flashback{
   top:50%;
+  font-family: 'Times New Roman', Times, serif !important;
   margin-top: 35%;
   font-size: 14px;
   font-weight: 550;
