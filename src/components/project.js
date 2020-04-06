@@ -73,6 +73,9 @@ export class project extends Component {
             </section>
           </label>
         </article>
+        <div className="skillsTitle" id="dummy" style={{ top: '110%', visibility: 'hidden' }}>.</div>
+
+
 
       </div>
     )

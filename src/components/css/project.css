@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 @media screen and (max-width: 1300px){
   .flashcard{
     left:8% !important
@@ -7,18 +10,23 @@
     top:37% !important;
   }
   #flashcarddiv-2{
-    top:82% !important;
+    top:87% !important;
   }
   #flashcarddiv-3{
-    top:132% !important;
+    top:137% !important;
 
   }
   #flashcarddiv-4{
-    top:182% !important;
+    top:187% !important;
 
   }
   #flashcarddiv-5{
-    top:232% !important;
+    top:237% !important;
+  }
+  #dummy{
+    top:270% !important;
+    visibility: hidden;
+
   }
 }
 
