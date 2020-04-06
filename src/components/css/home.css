@@ -9,6 +9,10 @@
   .htmltags {
     visibility: hidden;
   }
+  #info{
+    visibility: visible !important;
+    margin-right: 10px !important;
+  }
   .icon {
     left:0% !important;
     visibility: hidden;
@@ -92,6 +96,9 @@ animation: none !important;
   transform: translateY(-50%);
   left: 12%;
 
+}
+#info{
+  visibility: hidden;
 }
 @keyframes headerFadeIn{
   0%{
