@@ -17,8 +17,8 @@ export class project extends Component {
           <input id="flashcard-1" type="checkbox" />
           <label for="flashcard-1">
             <section class="front">
-              <div style={{ color: 'white', fontSize: '35px', fontFamily: 'Lobster', marginTop: '28%', }}>Swachh-Bin</div>
-              <div style={{ color: '#08FDD8', fontSize: '12px', marginTop: '10px' }}>NATIVE ANDROID APP</div>
+              <div style={{ fontSize: '35px', fontFamily: 'Lobster', marginTop: '28%' }}>Swachh-Bin</div>
+              <div style={{ color: '#08FDD8', fontSize: '12px', marginTop: '12px' }}>NATIVE ANDROID APP</div>
             </section>
             <section class="back">
               <div className="flashback">THROUGH THIS ANDROID APP, THE VEGETABLE WASTE COLLECTED AT A CENTRALIZED LOCATION BY MUNICIPAL CORPORATION CAN BE ORDERED BY SHEPHERDS AND THE ANIMAL WASTE AND OTHER ORGANIC WASTE CAN BE ORDERED BY FARMERS TO USE IT AS A FERTILIZING PRODUCT.</div>
@@ -29,8 +29,8 @@ export class project extends Component {
           <input id="flashcard-2" type="checkbox" />
           <label for="flashcard-2">
             <section class="front">
-              <div className="flashfront">The Chatter Court</div>
-              <div style={{ color: '#08FDD8', fontSize: '12px', marginTop: '-15px' }}>WORDPRESS CMS WEBSITE</div>
+              <div style={{ fontSize: '35px', fontFamily: 'Lobster', marginTop: '28%' }}>The Chatter Court</div>
+              <div style={{ color: '#08FDD8', fontSize: '12px', marginTop: '12px' }}>WORDPRESS CMS WEBSITE</div>
             </section>
             <section class="back">
               <div className="flashback">THIS WEBSITE BASICALLY AIMS TO MANAGE AND ORGANIZE OPEN MIC EVENTS AND INFORMAL MEET UPS IN THE TOWN. THIS WEBSITE HELPS ORGANIZERS TO POST THEIR EVENTS AND ATTENDANTS TO VIEW UPCOMING EVENTS IN THEIR TOWN.</div>
@@ -41,8 +41,8 @@ export class project extends Component {
           <input id="flashcard-3" type="checkbox" />
           <label for="flashcard-3">
             <section class="front">
-              <div className="flashfront">Sky region Detection</div>
-              <div style={{ color: '#08FDD8', fontSize: '12px', marginTop: '-15px' }}>AN APPROACH - COMPUTER VISION</div>
+              <div style={{ fontSize: '35px', fontFamily: 'Lobster', marginTop: '28%' }}>Sky region Detection</div>
+              <div style={{ color: '#08FDD8', fontSize: '12px', marginTop: '12px' }}>AN APPROACH - COMPUTER VISION</div>
             </section>
             <section class="back">
               <div className="flashback">WE HANDED OVER AN APPROACH TO GENERATE AN MASKED IMAGE OF A GIVEN INPUT IMAGE WITH DETECTED SKY REGION, THROUGH THIS IMAGE AND STUDYING CAMERA OPTICS, WE CAN CALCULATE THE ANGLE OF ELEVATION FROM THE LOWEST SKY PIXEL WHICH IS AN IMPORTANT ASPECT IN PREDICTING SOLAR ENERGY POTENTIAL AT ANY URBAN SETTING.</div>
@@ -53,8 +53,8 @@ export class project extends Component {
           <input id="flashcard-4" type="checkbox" />
           <label for="flashcard-4">
             <section class="front">
-              <div className="flashfront">Language Translator</div>
-              <div style={{ color: '#08FDD8', fontSize: '12px', marginTop: '-15px' }}>PYTHON - TKINTER GUI MODULE</div>
+              <div style={{ fontSize: '35px', fontFamily: 'Lobster', marginTop: '28%' }}>Language Translator</div>
+              <div style={{ color: '#08FDD8', fontSize: '12px', marginTop: '12px' }}>PYTHON - TKINTER GUI MODULE</div>
             </section>
             <section class="back">
               <div className="flashback">CREATED A HANDY LANGUAGE TRANSLATOR USING PYTHON PROGRAMMING LANGUAGE AND TKINTER GUI MODULE. USED GOOGLE TRANSLATOR API SUPPORT.</div>
@@ -65,8 +65,8 @@ export class project extends Component {
           <input id="flashcard-5" type="checkbox" />
           <label for="flashcard-5">
             <section class="front">
-              <div className="flashfront">Developer Portfolio</div>
-              <div style={{ color: '#08FDD8', fontSize: '12px', marginTop: '-15px' }}>REACT JS , CUSTOM CSS COMPONENTS</div>
+              <div style={{ fontSize: '35px', fontFamily: 'Lobster', marginTop: '28%' }}>Developer Portfolio</div>
+              <div style={{ color: '#08FDD8', fontSize: '12px', marginTop: '12px' }}>REACT JS , CUSTOM CSS COMPONENTS</div>
             </section>
             <section class="back">
               <div className="flashback">THIS IS NOTHING BUT THE THING YOU ARE LOOKING AT RIGHT NOW. THIS PORTFOLIO IS CREATED USING REACT JS AND FEW CUSTOM CSS COMPONENTS. THANK YOU FOR HAVING A LOOK.</div>

@@ -80,17 +80,8 @@
    height: 0%;
    opacity: 1;
 }
-.flashfront{
-  /* top:50%; */
-  font-size: 35px;
-  font-family: 'Lobster','cursive';
-  margin-top: 35%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
 .flashback{
   top:50%;
-  font-family: 'Times New Roman', Times, serif !important;
   margin-top: 35%;
   font-size: 14px;
   font-weight: 550;
