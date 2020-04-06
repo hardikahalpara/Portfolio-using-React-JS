@@ -17,8 +17,8 @@ export class project extends Component {
           <input id="flashcard-1" type="checkbox" />
           <label for="flashcard-1">
             <section class="front">
-              <div style={{ color: 'white', fontSize: '35px', fontFamily: 'Lobster', marginTop: '35%', msTransform: 'translateY(-50%)', transform: 'translateY(-50%)' }}>Swachh-Bin</div>
-              <div style={{ color: '#08FDD8', fontSize: '12px', marginTop: '-15px' }}>NATIVE ANDROID APP</div>
+              <div style={{ color: 'white', fontSize: '35px', fontFamily: 'Lobster', marginTop: '28%', }}>Swachh-Bin</div>
+              <div style={{ color: '#08FDD8', fontSize: '12px', marginTop: '10px' }}>NATIVE ANDROID APP</div>
             </section>
             <section class="back">
               <div className="flashback">THROUGH THIS ANDROID APP, THE VEGETABLE WASTE COLLECTED AT A CENTRALIZED LOCATION BY MUNICIPAL CORPORATION CAN BE ORDERED BY SHEPHERDS AND THE ANIMAL WASTE AND OTHER ORGANIC WASTE CAN BE ORDERED BY FARMERS TO USE IT AS A FERTILIZING PRODUCT.</div>
