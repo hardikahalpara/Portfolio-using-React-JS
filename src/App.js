@@ -7,9 +7,17 @@ import About from './components/about'
 import Skills from './components/skills'
 import Project from './components/project'
 import Contact from './components/contact'
+import DocumentMeta from 'react-document-meta'
+const meta = {
+  title: 'Hardik Ahalpara',
+  name: 'viewport',
+  content: 'width=device-width,user-scalable=no'
+}
 function App() {
   return (
+
     <div className="App">
+      <DocumentMeta {...meta} />
       <BrowserRouter>
         <div>
           <NavBar></NavBar>
