@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 .homeContainer{
 display: flex;
+position: static;
 }
 @media screen and (max-width: 480px) {
   .htmltags {
