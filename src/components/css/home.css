@@ -4,7 +4,7 @@
 .homeContainer{
 display: flex;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 480px) {
   .htmltags {
     visibility: hidden;
   }
