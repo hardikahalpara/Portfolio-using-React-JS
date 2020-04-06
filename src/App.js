@@ -11,7 +11,7 @@ import DocumentMeta from 'react-document-meta'
 const meta = {
   title: 'Hardik Ahalpara',
   name: 'viewport',
-  content: 'width=device-width,user-scalable=no'
+  content: 'width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0'
 }
 function App() {
   return (
