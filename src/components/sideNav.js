@@ -10,7 +10,7 @@ class sideNav extends Component {
     return (
 
       <div className="sidenavmain">
-        <NavLink to="/"><div className="logo"></div></NavLink>
+        <NavLink to="/" style={{ outline: 'none' }}><div className="logo"></div></NavLink>
         <nav className="sidenav">
           <NavLink to="/" className="tooltip--right" data-tooltip="HOME">
             <IconContext.Provider value={{ className: "icons" }}>
@@ -36,9 +36,9 @@ class sideNav extends Component {
         </nav>
         <nav className="bottomnav">
           <IconContext.Provider value={{ className: "icons2" }}>
-            <a href="https://in.linkedin.com/in/hardik-ahalpara-3031ab150" target="_blank"><FiLinkedin></FiLinkedin></a>
-            <a href="https://github.com/hardikahalpara/" target="_blank"><FiGithub /></a>
-            <a href="https://www.instagram.com/_hardikgajjar/" target="_blank"><FiInstagram /></a>
+            <a href="https://in.linkedin.com/in/hardik-ahalpara-3031ab150" target="_blank" style={{ outline: 'none' }}><FiLinkedin></FiLinkedin></a>
+            <a href="https://github.com/hardikahalpara/" target="_blank" style={{ outline: 'none' }}><FiGithub /></a>
+            <a href="https://www.instagram.com/_hardikgajjar/" target="_blank" style={{ outline: 'none' }}><FiInstagram /></a>
           </IconContext.Provider>
         </nav>
 

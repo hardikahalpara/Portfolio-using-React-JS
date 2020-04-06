@@ -21,7 +21,7 @@ class home extends Component {
           <div className="animateForward">I'm Hardik Ahalpara,</div>
           <div className="animateForward">Computer Science Student.</div>
           <p style={{ color: '#08FDD8', fontSize: '12px' }}>FRONT END DEVELOPER / NATIVE ANDROID DEVELOPER / MACHINE LEARNING ENTHUSIAST / INTERN</p>
-          <NavLink to="/contact"><button class="talkButton">L E T ' S&nbsp;&nbsp;&nbsp;&nbsp;T A L K</button></NavLink>
+          <NavLink to="/contact" style={{ outline: 'none' }}><button class="talkButton">L E T ' S&nbsp;&nbsp;&nbsp;&nbsp;T A L K</button></NavLink>
         </div>
         {/* <div className="svg"></div> */}
         <div class="pulse1"></div>
