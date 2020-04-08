@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './css/skills.css'
-import $ from 'jquery'
+// import $ from 'jquery'
 class skills extends Component {
 
   render() {

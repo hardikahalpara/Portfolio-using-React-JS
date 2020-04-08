@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "google-maps-react": "^2.0.2",
     "jquery": "^3.4.1",
+    "package.json": "^2.0.1",
     "react": "^16.13.1",
     "react-document-meta": "^3.0.0-beta.2",
     "react-dom": "^16.13.1",
